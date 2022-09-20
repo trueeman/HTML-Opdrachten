@@ -1,0 +1,24 @@
+h1 {font-size: 24px;
+    color:blue;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h2 {font-size: 20px;
+    color:#0000ff;
+    font-weight: 900;
+}
+
+h3 {font-size: 16px;
+    color: teal;
+    font-weight: 900;
+}
+
+p {color: #4D4D4D
+}
+
+p.1 {font-weight: 900;}
+
+a {text-decoration: none;  
+   color:#8A2BE2
+}
