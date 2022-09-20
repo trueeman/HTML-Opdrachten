@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 3.2</title>
+</head>
+ <body>
+        <br>
+    <form action="/action_page.php">
+        <label for="voornaam">Voornaam:</label>
+        <br>
+        <input type="text" id="voornaam" name="voornaam">
+        <br>
+        <label for="achternaam">Achternaam:</label>
+        <br>
+        <input type="text" id="achternaam" name="achternaam">
+        <br>
+        <br>
+
+        <input type="radio" id="man" name="geslacht" value="Man" checked="Man">
+        <label for="man">Man</label>
+        <br>
+        <input type="radio" id="vrouw" name="geslacht" value="Vrouw">
+        <label for="vrouw">Vrouw</label>
+        <br>
+        <br>
+
+        <label for="straatnaam">Straatnaam:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; Huisnummer:</label>
+        <br>
+        <input type="text" id="straatnaam" name="straatnaam">
+        <input type="text" id="huisnummer" name="huisnummer"
+        maxlength="5" size="5">
+        <br>
+        <br>
+
+        <label for="postcode">Postcode:</label>
+        <br>
+        <input type="text" id="postcode" name="postcode" maxlength="6" size="5">
+        <br>
+        <br>
+    
+        <label for="stadsnaam">Stad:</label>
+        <br>
+        <input type="text" id="stadsnaam" name="stadsnaam">
+        <br>
+        <br>
+
+        <label for="land">Land:</label>
+        <br>
+        <input type="text" id="land" name="land">
+        <br>
+        <br>
+
+        <label for="BSN-nummer">BSN-nummer:</label>
+        <br>
+        <input type="text" id="BSN-nummer" name="BSN-nummer" 
+        maxlength="9" size="9">
+        <br>
+        <br>
+
+        <label for="land">Land dat je op vakantie wilt gaan:</label>      
+        <select id="land" name="land" class="land_kiezer">        
+        <option value="Netherlands">Nederland</option>
+        <option value="Netherlands">Niet Nederland</option>
+        <option value="Netherlands">Misschien Nederland</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="minimale_datum">Kies een datum voor 15-09-2022;</label>
+        <input type="date" id="minimale_datum" name="minimale_datum" max="2022-09-15">
+        <br>
+        <br>
+
+        <label for="datum_van_terugkomst">Kies een datum na 15-09-2002;</label>
+        <input type="date" id="datum_van_terugkomst" min="2022-09-15">
+        <br>
+        <br>
+
+        <label for="aantal_reisgenoten">Aantal reisgenoten:</label>
+        <input type="number" id="aantal_reisgenoten" name="aantal_reisgenoten" min="1" max="4">
+        <br>
+        <br>
+
+        <label for="nutteloze knop">Boek nu je vlucht!</label>
+        <input type="button" onclick="alert('Ja, dat gaat hem niet worden.')" 
+        value="Klik hier">
+        <br>
+        <br>
+
+        <label for="email">E-mail:</label>
+        <br>
+        <input type="email" id="email" name="email" size="25">
+        <br>
+        <br>
+
+        <label for="wachtwoord">Wachtwoord:</label>
+        <br>
+        <input type="password" id="wachtwoord" name="wachtwoord">
+ </body>
+</html>

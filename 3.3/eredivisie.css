@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 255, 255)
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+img.resize {
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    color:rgb(230, 107, 12);
+    font-family: Bell MT
+}
+
+th {
+    color:rgb(230, 107, 12);
+    font-family: Bell MT;
+
+}

@@ -1,0 +1,23 @@
+.city {
+    background-color: rgb(77, 174, 64);
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+}
+
+.tekst
+
+{
+font-size: 24px;  
+font-family: Verdana;
+list-style-type: circle;
+
+}
+
+.tekst2
+
+{
+font-size: 24px;  
+font-family: Verdana;
+}
