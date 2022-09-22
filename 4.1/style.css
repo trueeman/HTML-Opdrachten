@@ -1,5 +1,5 @@
 h1 {font-size: 24px;
-    color:blue;
+    color:rgb(163, 212, 255);
     font-weight: 900;
     font-style: italic;
 }
@@ -14,11 +14,35 @@ h3 {font-size: 16px;
     font-weight: 900;
 }
 
-p {color: #4D4D4D
+body {
+    background-size: cover;
 }
 
-p.1 {font-weight: 900;}
+p {color: #4D4D4D;
+}
+
+.p1 {font-weight: 900;
+    border: 5px solid black;
+    border-radius: 5px
+    
+}
+article {border: 3px solid rgb(94, 90, 90);
+         border-radius: 5px;
+         border-width: 3px 3px 3px 10px
+}
+
+.header {padding: 50px;
+         background-image: url("https://www.rtlnieuws.nl/sites/default/files/content/images/2019/08/13/Minecraft.jpg?itok=ldEOIuni&width=1024&height=576&impolicy=semi_dynamic");
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+}
 
 a {text-decoration: none;  
    color:#8A2BE2
+}
+
+img {
+    width: 50vw;
+    height: 50vh;
 }
