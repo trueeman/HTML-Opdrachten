@@ -1,0 +1,42 @@
+#section1 {
+    display: flex;
+    margin: 1rem;
+}
+
+#section2 {
+    display: flex;
+    margin: 1rem;
+    flex-direction: row-reverse;
+}
+
+.blue {
+    height: 200px;
+    width: 200px;
+    background: #0924f9;
+    position: static;
+    margin: 1rem;
+}
+
+.black {
+    height: 200px;
+    width: 200px;
+    background: #010101;
+    position: static;
+    margin: 1rem;
+}
+
+.red {
+    height: 200px;
+    width: 200px;
+    background: #ff0c01;
+    position: static;
+    margin: 1rem;
+}
+
+.green {
+    height: 200px;
+    width: 200px;
+    background: #01801e;
+    position: static;
+    margin: 1rem;
+}
