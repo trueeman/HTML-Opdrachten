@@ -1,0 +1,141 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+}
+
+header {
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+}
+
+#s1 {
+  background: #f9ca22;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  min-height: 19.2vh;
+}
+
+#s2 {
+  background: #f0922b;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  min-height: 19.2vh;
+}
+
+#s3 {
+  background: #69b04c;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  min-height: 19.2vh;  
+}
+
+@media(min-width: 1024px) {
+    body {
+      background: #ea4d4b;
+    }
+
+    header {
+      padding-left: 3rem;
+    }
+
+    #s1 {
+      padding-left: 3rem;
+      padding-bottom: 5rem;
+      justify-content: center;
+      flex-flow: column;
+    }
+    
+    #s2 {   
+      padding-left: 3rem;
+      padding-bottom: 5rem;
+      justify-content: center;
+      flex-flow: column;
+    }
+    
+    #s3 {
+      padding-left: 3rem;
+      padding-bottom: 5rem;
+      justify-content: center;
+      flex-flow: column;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 1023px) {
+    body {
+      background: #ff6b81;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: center;
+    }
+
+    #s1 {
+      background: #fe4657;
+      padding-left: 1rem;
+      flex-flow: column
+    }
+    
+    #s2 {
+      background: #5352ec;
+      padding-left: 1rem;
+      flex-flow: column
+    }
+    
+    #s3 {
+      background: #3742f9;
+      padding-left: 1rem;
+      flex-flow: column
+    }
+}
+
+@media(max-width: 767px) {
+    body {
+      background: #686de0;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    h1 {
+      justify-content: space-between;
+    }
+
+    #p1 {
+      text-align: center;
+    }
+
+    #s1 {
+      background: #7ed6df;
+    }
+    
+    #s2 {
+      background: #e056fd;
+    }
+    
+    #s3 {
+      background: #30336a;
+    }
+}
+
+@media(min-width: 767px) {
+    #borgir {
+      display: none;
+    }
+}
