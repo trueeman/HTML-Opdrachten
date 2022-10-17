@@ -1,0 +1,172 @@
+/*body{
+ margin:0;
+} */
+
+
+.hele-scherm {
+    position: absolute;
+    width: 457px;
+    height: 966px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #12512B;
+}
+
+nav {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 93.37%;
+    background: #317043;
+    z-index: 1;
+}
+
+.witte-blok {
+    position: absolute;
+    height: 64px;
+    width: 126px;
+    background: #FFFFFF;
+    z-index: -1;
+}
+
+.tcr-logo {
+    height: 37px;
+    padding-left: 11px;
+    padding-top: 12px;
+}
+
+.zoekbar {
+    position: absolute;
+    left: 50.11%;
+    right: 29.1%;
+    top: 20px;
+    background: #66BB49;
+    height: 24px;
+    width: 95px;
+    color: #317043;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.streep1 {
+    position: absolute;
+    top: 18px;
+    left: 415px;
+    background: #98D11F;
+    height: 6px;
+    width: 31px;
+}
+
+.streep2 {
+    position: absolute;
+    top: 29px;
+    left: 418px;
+    background: #98D11F;
+    height: 6px;
+    width: 28px;
+}
+
+.streep3 {
+    position: absolute;
+    Top: 40px;
+    Left: 421px;
+    background: #98D11F;
+    height: 6px;
+    width: 25px;
+}
+
+.tcr {
+    position: absolute;
+    left: 2.63%;
+    right: 60.18%;
+    top: 12.94%;
+    bottom: 54.66%;
+    border-radius: 10%;
+}
+
+.witte-tegel {
+    position: absolute;
+    width: 224px;
+    height: 115px;
+    left: 207px;
+    top: 147px;
+    padding-top: 1rem;
+    background: white;
+    border-radius: 5%;
+    color: #317043;
+}
+
+.welcome {
+    position: absolute;
+    width: 262px;
+    height: 128px;
+    left: calc(50% - 262px/2 + 90.5px);
+    top: calc(50% - 128px/2 - 130px);
+    border-radius: 10%;
+}
+
+h1 {
+    position: absolute;
+    left: 21.23%;
+    right: 17.51%;
+    top: 50%;
+    bottom: 41.1%;
+    color: white;
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.tcr-locatie{
+    position: absolute;
+    width: 355px;
+    height: 173px;
+    left: 51px;
+    top: 519px;
+}
+
+.blok1 {
+    position: absolute;
+    left: 0%;
+    right: 50.11%;
+    top: 80.02%;
+    bottom: 6.63%;
+    text-align: center;
+    padding-top: 25px;
+    background: #72A605;
+    color: white;
+}
+
+
+.blok2 {
+    position: absolute;
+    left: 49.89%;
+    right: 0%;
+    top: 80.02%;
+    bottom: 6.63%;
+    text-align: center;
+    padding-top: 25px;
+    background: #135E28;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 93.37%;
+    bottom: 0%;
+    text-align: center;
+    padding-top: 15px;
+    background: #317043;
+    color: white;
+    font-family: 'Abel';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
